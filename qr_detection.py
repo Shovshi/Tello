@@ -25,7 +25,7 @@ def calculate_3d_info(rvec, tvec):
 
 
 # Load the Aruco dictionary and detector parameters
-aruco_dict = aruco.getPredefinedDictionary(aruco.DICT_4X4_1000)
+aruco_dict = aruco.getPredefinedDictionary(aruco.DICT_4X4_100)
 parameters = aruco.DetectorParameters()
 
 # Open the video
