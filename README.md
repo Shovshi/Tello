@@ -20,7 +20,7 @@ The script performs the following steps:
 ## Installation
 
 To install the required libraries, you can use pip:
-`pip install opencv-python-headless numpy`
+* `pip install opencv-python-headless numpy`
 
 ## Usage
 1. Ensure you have a calibrated camera. Update the camera_matrix and dist_coeffs in the script with your camera's calibration data.
